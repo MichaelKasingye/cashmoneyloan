@@ -24,23 +24,21 @@ This displays figures meant to be mountly payments.
 <code>
  // Function 
 <code>.
+	
  <br>
 loanMonthlyPayment(loanAmount, monthlyLoanPeriod, interestRate)
 </code>
 <br>
+
 ##### leveraging destructuring 
  <br>
+ 
 <code>
 const { loanMonthlyPayment } = require('cashmoneyloan'); // ./index.js
 </code>.
  <br>
+	
 <code>
  console.log(loanMonthlyPayment(1000000,10,10));
 </code>
-	```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+
