@@ -22,9 +22,8 @@ npm install cashmoneyloan
 This displays figures meant to be montly payments. 
 <br>
 
-##### leveraging destructuring 
- <br>
- 
+##### leveraging destructuring  <br>
+
 ##### Examples:
 ```
 const { loanMonthlyPayment, totalInterest, netIncomeBalance, loanPaymentToIncome } = require('cashmoneyloan'); // ./index.js
