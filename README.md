@@ -12,11 +12,6 @@ With npm:
 npm install cashmoneyloan
 </code>
 <br>
-Or, with yarn:
-<code>
-npm install cashmoneyloan
-</code>
-<br>
 
 #### Calculate monthly payment figures
 This displays figures meant to be montly payments. 
