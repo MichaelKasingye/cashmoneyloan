@@ -27,13 +27,15 @@ This displays figures meant to be montly payments.
 ##### Examples:
 ```
 const { loanMonthlyPayment, totalInterest, netIncomeBalance, loanPaymentToIncome } = require('cashmoneyloan'); // ./index.js
+
+loanMonthlyPayment(loanAmount, monthlyLoanPeriod, interestRate)
+
+loanPaymentToIncome(loanInstalments, income);
  
 totalInterest(loanMonthlyPayment, monthlyLoanPeriod, loanAmount);
  
 netIncomeBalance(income, loanInstalments);
  
-loanPaymentToIncome(loanInstalments, income);
-
 console.log(loanMonthlyPayment(1000000,10,10)); //104640
 ```
 
