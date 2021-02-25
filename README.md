@@ -23,7 +23,6 @@ This displays figures meant to be montly payments.
 <br>
 <code>
  // Function 
-
 loanMonthlyPayment(loanAmount, monthlyLoanPeriod, interestRate)
 </code>	
 
