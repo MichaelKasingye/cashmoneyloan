@@ -30,8 +30,7 @@ loanMonthlyPayment(loanAmount, monthlyLoanPeriod, interestRate); // Function
  
 <code>
 const { loanMonthlyPayment } = require('cashmoneyloan'); // ./index.js
-
-
+ 
 console.log(loanMonthlyPayment(1000000,10,10));
  
  //104640
