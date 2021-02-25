@@ -19,15 +19,17 @@ npm install cashmoneyloan
 <br>
 
 #### Calculate monthly payment figures
-This displays figures meant to be mountly payments.
+This displays figures meant to be mountly payments. <br>
 <code>
  // Function <br>
 loanMonthlyPayment(loanAmount, monthlyLoanPeriod, interestRate)
 </code>
 <br>
 
-##### leveraging destructuring
+##### leveraging destructuring <br>
 <code>
-const { loanMonthlyPayment } = require('cashmoneyloan'); // ./index.js <br>
+const { loanMonthlyPayment } = require('cashmoneyloan'); // ./index.js
+</code>
+<code>
  console.log(loanMonthlyPayment(1000000,10,10));
 </code>
