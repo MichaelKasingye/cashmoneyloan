@@ -37,7 +37,7 @@ console.log(loanMonthlyPayment(1000000,10,10));
 </code>
 
 #### Other functions include:
-<code>
+```
 const { loanMonthlyPayment, totalInterest, netIncomeBalance, loanPaymentToIncome } = require('cashmoneyloan'); // ./index.js
  
 totalInterest(loanMonthlyPayment, monthlyLoanPeriod, loanAmount);
@@ -47,5 +47,5 @@ netIncomeBalance(income, loanInstalments);
 loanPaymentToIncome(loanInstalments, income);
 
 console.log(loanMonthlyPayment(1000000,10,10)); //104640
-</code>
+```
 
