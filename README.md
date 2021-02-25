@@ -6,3 +6,13 @@ Cashmoneyloan is a tool for performing calculations on loans in JavaScript.
 1. Calculate monthly payment figures
 
 #### Usage
+<br>
+With npm:
+<code>
+npm install cashmoneyloan
+</code>
+<br>
+Or, with yarn:
+<code>
+npm install cashmoneyloan
+</code>
