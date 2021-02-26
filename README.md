@@ -75,4 +75,4 @@ export default function App() {
   );
 }
 ```
-[GITHUB](https://github.com/MichaelKasingye/cashmoneyloan/blob/main/README.md)
+[GITHUB - Readme](https://github.com/MichaelKasingye/cashmoneyloan/blob/main/README.md)
