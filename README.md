@@ -9,9 +9,7 @@ Cashmoneyloan is a tool for performing calculations on loans in JavaScript.
 <br>
 
 With npm:
-```
-npm install cashmoneyloan
-```
+`npm install cashmoneyloan`
 <br>
 
 #### Calculate monthly payment figures
