@@ -18,7 +18,7 @@ This displays figures meant to be montly payments.
 
 ##### leveraging destructuring  <br>
 
-##### Examples: (Node js)
+##### Example: (Node js)
 ```javascript
 const { loanMonthlyPayment, totalInterest, netIncomeBalance, loanPaymentToIncome } = require('cashmoneyloan'); // ./index.js
 
@@ -33,7 +33,7 @@ netIncomeBalance(income, loanInstalments);
 console.log(loanMonthlyPayment(1000000,10,10)); //104640
 ```
 
-##### Examples: (React js)
+##### Example: (React js)
 ```javascript
 import {loanMonthlyPayment, loanPaymentToIncome, netIncomeBalance} from 'cashmoneyloan';
 
