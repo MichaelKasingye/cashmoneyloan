@@ -18,8 +18,8 @@ This displays figures meant to be montly payments.
 
 ##### leveraging destructuring  <br>
 
-##### Examples:
-```
+##### Examples: (Node js)
+```javascript
 const { loanMonthlyPayment, totalInterest, netIncomeBalance, loanPaymentToIncome } = require('cashmoneyloan'); // ./index.js
 
 loanMonthlyPayment(loanAmount, monthlyLoanPeriod, interestRate)
@@ -33,3 +33,36 @@ netIncomeBalance(income, loanInstalments);
 console.log(loanMonthlyPayment(1000000,10,10)); //104640
 ```
 
+##### Examples: (React js)
+```javascript
+import {loanMonthlyPayment, loanPaymentToIncome, netIncomeBalance} from 'cashmoneyloan';
+
+export default function App() {
+  const income = 5000;
+  const loanAmount = 100000;
+  const monthlyLoanPeriod = 60;
+  const interestRate = 10;
+
+  
+  const monthlyLoanInstalment =
+  loanMonthlyPayment(loanAmount,monthlyLoanPeriod,interestRate);
+  const paymentToIncomeRatio = loanPaymentToIncome(monthlyLoanInstalment, income);
+  const IncomeBalance = netIncomeBalance(income, monthlyLoanInstalment);
+
+  return (
+    <div className="container">
+      <h1>LOAN CALCULATOR</h1>
+      <p>Customer: James Opio</p>
+      <p>Income: ${income}</p>
+      <p>Mortgage : ${loanAmount}</p>
+      <p>Duration: {monthlyLoanPeriod} months</p>
+      <p>Rate: {interestRate}%</p>
+      <p>Loan Instalment: ${monthlyLoanInstalment}</p>
+      <p>Percetage of loan instalment <br/>
+       to income : ${paymentToIncomeRatio}</p>
+      <p>Income Balance after loan instalment : ${IncomeBalance}</p>
+      <h2>Star editing to see some magic happen!</h2>
+    </div>
+  );
+}
+```
