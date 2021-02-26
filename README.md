@@ -3,7 +3,10 @@
 Cashmoneyloan is a tool for performing calculations on loans in JavaScript.
 
 #### Features
-1. Calculate monthly payment figures
+1. Calculate monthly payment figures (loanMonthlyPayment)
+2. Loan total Interest (totalInterest)
+3. Income Balance after loan Instalment (netIncomeBalance)
+4. Payment to income ratio (loanPaymentToIncome)
 
 #### Usage
 <br>
